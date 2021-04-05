@@ -30,7 +30,21 @@ switch(비교할 값) {
         break;
 }
 break는 switch 조건문이나 반복문을 빠져나갈 때 사용
+>삼향 연산자
+연산자이지만 프로그램의 진행을 조건에 따라 변화시킬수 있다
+<불 표현식> ? 참:거짓
+console.log(number %2 == 0? true:false);
 
+>|| 연산자
+let test;
+test = test || "초기화합니다_1"
+console.log(test);
+test = test || "초기화합니다_2"
+console.log(test);
+
+>배열
+:여러 개의 자료를 한꺼번에 다룰 수 있는 자료형입니다
+let array = [52, 273,'아침','점심',true,false]
 
 ## [03월23일]
 
