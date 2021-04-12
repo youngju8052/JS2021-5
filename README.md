@@ -30,7 +30,7 @@ while (true){<br/>
 }<br/>
 <br/>
 console.log(`처음 발견한 짝수는 ${output}입니다`)
-
+<img src="picture/break.png" alt="예제결과"><br/>
 
 ## [03월30일]
 >중첩 조건문
