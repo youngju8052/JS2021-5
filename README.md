@@ -1,6 +1,32 @@
 # 황영주[202030336]
 
 ## [04월06일]
+>중첩 반복문
+:반복문을 여러번 중첩해서 사용하면 중첩 반복문이라고 합니다.<br/>
+별피라미드 예제<br/>
+let output = "";<br/>
+<br/>
+for(let i = 0; i < 5; i++){<br/>
+    for(let j = 0; j< i + 1; j++){<br/>
+        output += '*';<br/>
+    }<br/>
+    output += '\n';<br/>
+}<br/>
+<img src="picture/피라미드.png" alt="예제결과">
+>break키워드
+:switch 조건문이나 반복문을 벗어날 때 사용<br/>
+let i =0;<br/>
+let foo = [1,3,5,7,9,2];<br/>
+while (true){<br/>
+    if(foo[i] % 2 == 0){<br/>
+        output = foo[i];<br/>
+        break;<br/>
+    }<br/>
+    i= i+1;<br/>
+}<br/>
+<br/>
+console.log(`처음 발견한 짝수는 ${output}입니다`)
+
 
 ## [03월30일]
 >중첩 조건문
