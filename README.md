@@ -5,14 +5,18 @@
 :반복문을 여러번 중첩해서 사용하면 중첩 반복문이라고 합니다.<br/>
 별피라미드 예제<br/>
 let output = "";<br/>
-<br/>
-for(let i = 0; i < 5; i++){<br/>
-    for(let j = 0; j< i + 1; j++){<br/>
-        output += '*';<br/>
+for (let i = 0; i < 8; i++) {<br/>
+    for (let u = 0; u < 8 - i; u++) {<br/>
+        output += " ";<br/>
     }<br/>
-    output += '\n';<br/>
+    for (let u = 0; u <= i*2; u++) {<br/>
+        output += "*";<br/>
+    }<br/>
+    output += "\n";<br/>
 }<br/>
-<img src="picture/피라미드.png" alt="예제결과">
+console.log(output);<br/>
+<img src="picture/피라미드.png" alt="예제결과"><br/>
+
 >break키워드
 :switch 조건문이나 반복문을 벗어날 때 사용<br/>
 let i =0;<br/>
