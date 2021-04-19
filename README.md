@@ -1,5 +1,66 @@
 # 황영주[202030336]
 
+## [04월13일]
+>1 함수 생성
+:이름을 붙이지 않고 생성하면 익명함수라고 하며, 이름을 붙여 생성하면 선언적 함수라고 한다.<br/>
+1.1 익명함수<br/>
+let 함수 = function (){<br/>
+    console.log("함수의 첫번째 줄");<br/>
+    console.log("함수의 첫번째 줄");<br/>
+}<br/>
+함수();<br/>
+console.log(함수);<br/>
+<br/>
+
+1.2 선언적 함수<br/>
+function 함수이름() { }<br/>
+<br/>
+
+1.3 화살표 함수<br/>
+() => { }<br/>
+<br/>
+
+2 함수의 형태
+<img src="picture/함수의형태.png" alt="캡쳐">
+
+3.함수의 기본 활용<br/>
+5-2예제<br/>
+function sum(min,max) {<br/>
+    let output = 0;<br/>
+    for(let i = min; i <= max; i++){<br/>
+        output += i;<br/>
+    }<br/>
+    return output;<br/>
+}<br/>
+<br/>
+console.log(sum(1,100));<br/>
+
+<img src="picture/예제_5-2.png" alt="예제결과">
+
+4.함수 매개 변수 초기화<br/>
+function print(name, count) {<br/>
+    if(!count) {<br/>
+        count = 1;<br/>
+    }<br/>
+<br/>
+    console.log(`${name}이/가 ${count}개 있습니다.`)<br/>
+}<br/>
+print("사과");<br/><br/>
+
+<img src="picture/예제_5-4.png" alt="예제결과"><br/>
+
+5.콜백 함수<br/>
+function callTenTimes(callback) {<br/>
+    for(let i = 0; i < 10; i++>){<br/>
+        callback();<br/>
+    }<br/>
+}<br/>
+callTenTimes(function(){<br/>
+    console.log('함수 호출');<br/>
+});<br/><br/>
+
+<img src="picture/예제_5-6.png" alt="예제결과"><br/>
+
 ## [04월06일]
 >중첩 반복문
 :반복문을 여러번 중첩해서 사용하면 중첩 반복문이라고 합니다.<br/>
@@ -17,6 +78,8 @@ for (let i = 0; i < 8; i++) {<br/>
 console.log(output);<br/>
 <img src="picture/피라미드.png" alt="예제결과"><br/>
 
+
+
 >break키워드
 :switch 조건문이나 반복문을 벗어날 때 사용<br/>
 let i =0;<br/>
@@ -29,7 +92,7 @@ while (true){<br/>
     i= i+1;<br/>
 }<br/>
 <br/>
-console.log(`처음 발견한 짝수는 ${output}입니다`)
+console.log(`처음 발견한 짝수는 ${output}입니다`)<br/>
 <img src="picture/break.png" alt="예제결과"><br/>
 
 ## [03월30일]
