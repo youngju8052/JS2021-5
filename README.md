@@ -8,7 +8,7 @@ let 함수 = function (){<br/>
     console.log("함수의 첫번째 줄");<br/>
     console.log("함수의 첫번째 줄");<br/>
 }<br/>
-함수();<br/>
+함수(a);<br/>
 console.log(함수);<br/>
 <br/>
 
