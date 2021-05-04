@@ -23,7 +23,6 @@ let object = {<br/>
     name:'바나나',<br/>
     price: 1200<br/>
 };<br/>
-
 for(let key in object){<br/>
     console.log(`${key}: ${object[key]}`);<br/>
 }<br/>
