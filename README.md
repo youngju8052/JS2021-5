@@ -14,6 +14,10 @@ console.log(object.price);<br/>
 
 <img src="picture/예제6-1결과.png" alt="캡쳐"><br/>
 <br/>
+<br/>
+>객체와 반복문
+:생성한 객체에 for in 반복문으로 반복을 적용할 수 있습니다.<br/>
+배열에 for in 반복문을 적용할 때 앞에 선언한 변수에 인덱스가 들어갔떤 것처럼, 객체에 for in 반복문을 적용하면 키가 들어갑니다.
 예제6-2<br/>
 let object = {<br/>
     name:'바나나',<br/>
