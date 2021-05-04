@@ -1,5 +1,32 @@
 # 황영주[202030336]
 
+## [04월 27일]
+>객체 기본
+:객체는 여러개의 자료형을 한 번에 저장하는 자료형입니다.<br/>
+<img src="picture/표6-3.png" alt="캡쳐"><br/>
+6-1예제<br/>
+let object = {<br/>
+    name:'바나나',<br/>
+    price: 1200<br/>
+};<br/>
+console.log(object.name);<br/>
+console.log(object.price);<br/>
+
+<img src="picture/예제6-1결과.png" alt="캡쳐"><br/>
+<br/>
+예제6-2<br/>
+let object = {<br/>
+    name:'바나나',<br/>
+    price: 1200<br/>
+};<br/>
+
+for(let key in object){<br/>
+    console.log(`${key}: ${object[key]}`);<br/>
+}<br/>
+
+<img src="picture/예제6-2.png" alt="캡쳐"><br/>
+
+
 ## [04월13일]
 >1 함수 생성
 :이름을 붙이지 않고 생성하면 익명함수라고 하며, 이름을 붙여 생성하면 선언적 함수라고 한다.<br/>
