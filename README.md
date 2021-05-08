@@ -1,5 +1,39 @@
 # 황영주[202030336]
 
+
+## [05월 04일]
+>1.기본 자료형과 객체 자료형의 차이<br/>
+let number = 273;<br/>
+let string = '안녕하세요';<br/>
+let boolean = true;<br/>
+<br/>
+console.log(typeof number);<br/>
+console.log(typeof string);<br/>
+console.log(typeof boolean);<br/>
+<br/>
+<img src="picture/picture7-3.png" alt="캡쳐"><br/>
+
+<br/><br/>
+
+>2-1 메소드<br/>
+예제 7-1<br/>
+let number = 273.5210332;<br/>
+<br/>
+console.log(number.toFixed(1));<br/>
+console.log(number.toFixed(4));<br/>
+
+<img src="picture/예제7-1.png" alt="캡쳐"><br/>
+
+>2-2 생성자 함수의 속성<br/>
+예제 7-2<br/>
+let numberA = Number.MAX_VALUE;<br/>
+let numberB = Number.MAX_VALUE + 1;<br/>
+<br/>
+console.log(numberA);<br/>
+console.log(numberB);<br/>
+<br/>
+<img src="picture/예제7-2.png" alt="캡쳐"><br/>
+
 ## [04월 27일]
 >객체 기본
 :객체는 여러개의 자료형을 한 번에 저장하는 자료형입니다.<br/>
