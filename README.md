@@ -34,6 +34,15 @@ console.log(numberB);<br/>
 <br/>
 <img src="picture/예제7-2.png" alt="캡쳐"><br/>
 
+>3 String 객체<br/>
+3-2메소드 활용 <br/>
+예제 7-3<br/>
+let string = '안녕하세요. 좋은 아침입니다.';<br/>
+if(string.index0f('아침') >= 0){<br/>
+    console.log('좋은 아침이에요...!');<br/>
+}<br/>
+<img src="picture/예제7-3.png" alt="캡쳐"><br/>
+
 ## [04월 27일]
 >객체 기본
 :객체는 여러개의 자료형을 한 번에 저장하는 자료형입니다.<br/>
