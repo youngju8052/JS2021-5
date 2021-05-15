@@ -1,6 +1,38 @@
 # 황영주[202030336]
 
 
+## [05월 11일]
+>예외와 기본 예외 처리<br/>
+예제 8-1<br/>
+function callThreeTimes(callback){<br/>
+    for (let i=0;i<3>;i++){<br/>
+        callback();<br/>
+}<br/>
+}<br/>
+<br/>
+정상<br/>
+callThreeTimes(function(){console.log('안녕하세요');});<br/>
+예외<br/>
+callThreeTimes();<br/>
+
+<img src="picture/예제8-1.png" alt="결과"><br/>
+<br/>
+<br/>
+예제 8-2<br/>
+const array = new Array(-2000);<br/>
+<img src="picture/예제8-2.png" alt="결과"><br/>
+<br/>
+예제 8-3<br/>
+try {<br/>
+    error.error.error();<br/>
+} catch(e){<br/>
+    console.log(e.name);<br/>
+    console.log(e.message)<br/>
+}<br/>
+<img src="picture/예제8-3.png" alt="결과"><br/>
+<br/>
+
+
 ## [05월 04일]
 >1.기본 자료형과 객체 자료형의 차이<br/>
 let number = 273;<br/>
@@ -11,7 +43,7 @@ console.log(typeof number);<br/>
 console.log(typeof string);<br/>
 console.log(typeof boolean);<br/>
 <br/>
-<img src="picture/picture7-3.png" alt="캡쳐"><br/>
+<img src="picture/picture7-3.png" alt="결과"><br/>
 
 <br/><br/>
 
@@ -22,7 +54,7 @@ let number = 273.5210332;<br/>
 console.log(number.toFixed(1));<br/>
 console.log(number.toFixed(4));<br/>
 
-<img src="picture/예제7-1.png" alt="캡쳐"><br/>
+<img src="picture/예제7-1.png" alt="결과"><br/>
 
 >2-2 생성자 함수의 속성<br/>
 예제 7-2<br/>
@@ -32,7 +64,7 @@ let numberB = Number.MAX_VALUE + 1;<br/>
 console.log(numberA);<br/>
 console.log(numberB);<br/>
 <br/>
-<img src="picture/예제7-2.png" alt="캡쳐"><br/>
+<img src="picture/예제7-2.png" alt="결과"><br/>
 
 >3 String 객체<br/>
 3-2메소드 활용 <br/>
@@ -41,12 +73,12 @@ let string = '안녕하세요. 좋은 아침입니다.';<br/>
 if(string.index0f('아침') >= 0){<br/>
     console.log('좋은 아침이에요...!');<br/>
 }<br/>
-<img src="picture/예제7-3.png" alt="캡쳐"><br/>
+<img src="picture/예제7-3.png" alt="결과"><br/>
 
 ## [04월 27일]
 >객체 기본
 :객체는 여러개의 자료형을 한 번에 저장하는 자료형입니다.<br/>
-<img src="picture/표6-3.png" alt="캡쳐"><br/>
+<img src="picture/표6-3.png" alt="결과"><br/>
 6-1예제<br/>
 let object = {<br/>
     name:'바나나',<br/>
@@ -55,7 +87,7 @@ let object = {<br/>
 console.log(object.name);<br/>
 console.log(object.price);<br/>
 
-<img src="picture/예제6-1결과.png" alt="캡쳐"><br/>
+<img src="picture/예제6-1결과.png" alt="결과"><br/>
 <br/>
 <br/>
 >객체와 반복문
@@ -70,7 +102,7 @@ for(let key in object){<br/>
     console.log(`${key}: ${object[key]}`);<br/>
 }<br/>
 
-<img src="picture/예제6-2.png" alt="캡쳐"><br/>
+<img src="picture/예제6-2.png" alt="결과"><br/>
 
 
 ## [04월13일]
