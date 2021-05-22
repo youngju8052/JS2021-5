@@ -1,5 +1,32 @@
 # 황영주[202030336]
 
+## [05월 18일]
+>1 전역 변수
+예제 9-1<br/>
+console.log(__filename);<br/>
+console.log(__dirname);<br/>
+
+<img src="picture/예제9-1.png" alt="결과"><br/>
+
+예제 9-2<br/>
+console.log('- process.arch:',process.arch);<br/>
+console.log('- process.platfrom:',process.platfrom);<br/>
+console.log('- process.connected:',process.connected);<br/>
+console.log('- process.execArgv:',process.execArgv);<br/>
+console.log('- process.exitCode:',process.exitCode);<br/>
+console.log('- process.mainModule:',process.mainModule);<br/>
+console.log('- process.release:',process.release);<br/>
+console.log('- process.memoryUsage:',process.memoryUsage);<br/>
+console.log('- process.uptime:',process.uptime());<br/>
+
+process.exit();<br/>
+
+console.log('테스트');<br/>
+console.log('테스트');<br/>
+console.log('테스트');<br/>
+
+<img src="picture/예제9-2.png" alt="결과"><br/>
+
 
 ## [05월 11일]
 >예외와 기본 예외 처리<br/>
